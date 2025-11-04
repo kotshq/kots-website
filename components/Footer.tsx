@@ -23,6 +23,14 @@ const Footer: React.FC = () => {
             <p className="text-slate-400 text-base">
               Fresh from the farm, financed for the future.
             </p>
+            <div className="text-slate-400 text-sm">
+              <p className="font-semibold text-slate-200 mb-2">Our Office</p>
+              <p>3rd Floor Ngara Heights</p>
+              <p>Musindi Road, Ngara</p>
+              <p>Nairobi, Kenya</p>
+              <p className="mt-2">P.O. Box 2988</p>
+              <p>00200 - City Square</p>
+            </div>
           </div>
           <div className="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
             <div className="md:grid md:grid-cols-2 md:gap-8">
