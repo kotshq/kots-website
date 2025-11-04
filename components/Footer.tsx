@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
     <footer className="bg-slate-800 text-slate-300">
       <div className="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <div className="space-y-8 xl:col-span-1">
+          <div className="space-y-8 xl:col-span-1 flex flex-col items-center xl:items-start text-center xl:text-left">
             <Logo className="h-12 text-white" />
             <p className="text-slate-400 text-base">
               Fresh from the farm, financed for the future.

@@ -1,20 +1,46 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Kots Technologies Website
 
-# Run and deploy your AI Studio app
+Official website for Kots Technologies - Farm Fresh, Future Forward.
 
-This contains everything you need to run your app locally.
+## About
 
-View your app in AI Studio: https://ai.studio/apps/drive/1rR_RW9H9-sIVykFJ5MmKpO5db4yOCl4N
+Kots Technologies is a modern agricultural technology company focused on bringing innovation to farming. Our website showcases our mission, products, and commitment to sustainable farming practices.
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- **React 19** - UI framework
+- **TypeScript** - Type-safe development
+- **Vite** - Build tool and dev server
+- **Tailwind CSS** - Styling via CDN
+- **GitHub Pages** - Hosting and deployment
 
+## Development
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+**Prerequisites:** Node.js 20+
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Run development server:**
+   ```bash
+   npm run dev
+   ```
+
+   The app will be available at http://localhost:3000
+
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## Deployment
+
+The site is automatically deployed to GitHub Pages via GitHub Actions on every push to the `main` branch.
+
+**Live Site:** https://kots.tech
+
+## License
+
+Copyright © 2025 Kots Technologies. All rights reserved.

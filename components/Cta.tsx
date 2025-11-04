@@ -13,7 +13,9 @@ const Cta: React.FC = () => {
           Whether you're a family looking for fresh food or a farmer looking for a reliable partner, Kots Technologies is here for you.
         </p>
         <a
-          href="#"
+          href="https://m.me/kotshq"
+          target="_blank"
+          rel="noopener noreferrer"
           className="mt-8 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-md text-orange-600 bg-white font-medium hover:bg-orange-50 sm:w-auto"
         >
           Get Started Today
